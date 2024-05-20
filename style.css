@@ -1,0 +1,42 @@
+* {
+  font: 1rem Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+
+  background-image: url(krissy.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.main > div {
+  font-size: 2rem;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+}
+
+#days,
+#hours,
+#minutes,
+#seconds {
+  font-size: 4rem;
+  font-weight: bold;
+  font-style: italic;
+}
